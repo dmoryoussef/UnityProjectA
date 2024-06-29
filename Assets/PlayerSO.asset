@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d39806c46c5ec44f82fce0634a6c282, type: 3}
+  m_Name: PlayerSO
+  m_EditorClassIdentifier: 
+  fGroundFriction: 0.95
+  fWallGrabFriction: 0.5
+  fMoveForce: 30
+  fMaxSpeed: 10
+  fJumpForce: 1.5
+  fJumpMax: 0.2
+  fFastFallScale: 5
+  fDefaultGravity: 3
+  fMaxFallSpeed: 20
+  fNotGroundedHorizontalForce: 0.6
+  fWallJumpUpForce: 1.5
+  fWallJumpSideForce: 1
+  bGrounded: 1
+  bLeftWallGrab: 0
+  bRightWallGrab: 0
+  fAttackWindow: 0.64
+  showRays: 0
+  stateChanges: 0
